@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/lt-binary-neue" rel="stylesheet">
+    <title>Blocked</title>
+    <style>
+        body{
+            background-color: #030005;
+        }
+        div{
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'LT Binary Neue', sans-serif;
+        }
+        section{
+            position: absolute;
+        }
+        section.err{
+            background-image: linear-gradient(to bottom, #8100FA, red);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: #030005;
+            -webkit-text-stroke-color: transparent;
+            -webkit-text-stroke-width: 0.5rem;
+            font-weight: bolder;
+            font-size: 15rem;
+        }
+        section.tt{
+            margin-left: 2rem;
+            margin-top: 9rem;
+            font-size: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <section class="err">ERR</section>
+        <section class="tt">Blacklisted URL</section>
+    </div>
+</body>
+</html>
